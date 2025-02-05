@@ -3,13 +3,14 @@ A brief, one-line description of your project.
 
 ## Table of Contents
 - [Overview](#Overview)
-- Dataset
-- Project Approach
-- Technologies Used
-- Results & Insights
-- How to Run the Code
-- Future Improvements
-- Contributors
+- [Dataset](#dataset)
+- [Project Approach](#project-approach)
+- [Technologies Used](#technologies-used)
+- [Results & Insights](#results--insights)
+- [Project Structure](#project-structure)
+- [How to Run the Code](#how-to-run-the-code)
+- [Future Improvements](#future-improvements)
+- [Contributors](#contributors)
 
 ## Overview
 Provide a short summary of your project:
@@ -47,16 +48,27 @@ List the main tools, libraries, and frameworks you used, such as:
   environment.
 - `requirements.txt` Information on the reproducible environment.
 
-## Installing Dependencies
-After cloning this repository, go to the project’s terminal and run
-`python -m venv .venv` to create the `/.venv` project library,
-followed by `pip install -r requirements.txt` to install the specified
-library versions.
-
+## How to Run the Code
+1. Clone the repository
+```
+git clone https://github.com/yourusername/project-name.git
+```
+2. Navigate to the project directory
+```
+cd project-name
+```
+3. Run the following to create the `/.venv` project library and install the specified library versions.
+```
+python -m venv .venv
+pip install -r requirements.txt
+```
 Note: Whenever you install new libraries or decide to update the versions of
 libraries you use, run `pip freeze > requirements.txt` to update
 `requirements.txt`.
-
+4. Run the main script
+```
+python main.py
+```
 ## Future Improvements
 - What are potential next steps for this project?
 - Any limitations or challenges faced?
