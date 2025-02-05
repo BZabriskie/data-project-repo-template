@@ -65,6 +65,7 @@ pip install -r requirements.txt
 Note: Whenever you install new libraries or decide to update the versions of
 libraries you use, run `pip freeze > requirements.txt` to update
 `requirements.txt`.
+
 4. Run the main script
 ```
 python main.py
