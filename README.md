@@ -4,33 +4,22 @@ A brief, one-line description of your project.
 ## Table of Contents
 - [Overview](#Overview)
 - [Dataset](#dataset)
-- [Project Approach](#project-approach)
-- [Technologies Used](#technologies-used)
 - [Results & Insights](#results--insights)
 - [Project Structure](#project-structure)
 - [How to Run the Code](#how-to-run-the-code)
-- [Future Improvements](#future-improvements)
-- [Contributors](#contributors)
 
 ## Overview
 Provide a short summary of your project:
 - What problem does it solve?
 - Why is it important?
 - How does your approach address the problem?
+- Explain your analytical or modeling approach (e.g., exploratory data analysis, machine learning/statistical methods).
+- Include a high-level overview of the workflow.
 
 ## Dataset
 - Source: [Link to dataset] (if applicable)
 - Description: Briefly describe the dataset, including the number of rows/columns and key variables.
 - Any preprocessing or cleaning steps performed.
-
-## Project Approach
-- Explain your analytical or modeling approach (e.g., exploratory data analysis, machine learning/statistical methods).
-- Include a high-level overview of the workflow.
-
-## Technologies Used
-List the main tools, libraries, and frameworks you used, such as:
-- Python (pandas, scikit-learn, matplotlib, etc.)
-- SQL, Tableau, Power BI, etc.
 
 ## Results & Insights
 - Summarize key findings with visuals if possible (attach images or link to a report).
@@ -48,7 +37,7 @@ List the main tools, libraries, and frameworks you used, such as:
   environment.
 - `requirements.txt` Information on the reproducible environment.
 
-## How to Run the Code
+## Installation
 1. Clone the repository
 ```
 git clone https://github.com/yourusername/project-name.git
@@ -62,18 +51,7 @@ cd project-name
 python -m venv .venv
 pip install -r requirements.txt
 ```
-Note: Whenever you install new libraries or decide to update the versions of
-libraries you use, run `pip freeze > requirements.txt` to update
-`requirements.txt`.
-
 4. Run the main script
 ```
 python main.py
 ```
-## Future Improvements
-- What are potential next steps for this project?
-- Any limitations or challenges faced?
-
-## Contributors
-- Your name and role in the project.
-- Acknowledgment of any collaborators or external resources.
